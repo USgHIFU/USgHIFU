@@ -1,0 +1,17 @@
+15-Apr-2015 09:42:36 Error using <a href="matlab:helpUtils.errorDocCallback('icinterface/fopen', 'C:\Program Files\MATLAB\R2012a\toolbox\shared\instrument\@icinterface\fopen.m', 83)" style="font-weight:bold">icinterface/fopen</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012a\toolbox\shared\instrument\@icinterface\fopen.m',83,0)">line 83</a>)
+Unsuccessful open: Connection timed out: connect
+
+Error in <a href="matlab:helpUtils.errorDocCallback('newTcpip', 'E:\server\newTcpip.m', 24)" style="font-weight:bold">newTcpip</a> (<a href="matlab: opentoline('E:\server\newTcpip.m',24,0)">line 24</a>)
+    fopen(Tcpip);
+
+Error in <a href="matlab:helpUtils.errorDocCallback('newClient', 'E:\server\newClient.m', 8)" style="font-weight:bold">newClient</a> (<a href="matlab: opentoline('E:\server\newClient.m',8,0)">line 8</a>)
+Tcpip = newTcpip;
+
+Error in <a href="matlab:helpUtils.errorDocCallback('server_terminal>server_terminal_OpeningFcn', 'E:\server\server_terminal.m', 59)" style="font-weight:bold">server_terminal>server_terminal_OpeningFcn</a> (<a href="matlab: opentoline('E:\server\server_terminal.m',59,0)">line 59</a>)
+Client = newClient;
+
+Error in <a href="matlab:helpUtils.errorDocCallback('gui_mainfcn', 'C:\Program Files\MATLAB\R2012a\toolbox\matlab\guide\gui_mainfcn.m', 221)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2012a\toolbox\matlab\guide\gui_mainfcn.m',221,0)">line 221</a>)
+    feval(gui_State.gui_OpeningFcn, gui_hFigure, [], guidata(gui_hFigure), varargin{:});
+
+Error in <a href="matlab:helpUtils.errorDocCallback('server_terminal', 'E:\server\server_terminal.m', 42)" style="font-weight:bold">server_terminal</a> (<a href="matlab: opentoline('E:\server\server_terminal.m',42,0)">line 42</a>)
+    gui_mainfcn(gui_State, varargin{:});
